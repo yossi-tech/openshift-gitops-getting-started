@@ -19,6 +19,7 @@ spec:
     metadata:
       labels:
         app: spring-petclinic
+        maistra.io/expose-route: "true"
     spec:
       containers:
       - name: spring-petclinic
